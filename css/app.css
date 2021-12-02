@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'moc';
+  src: url(../fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a,
+.btn {
+  color: #255C86 !important;
+}
+
+body {
+  background: #fff url(../img/bg.png) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 2rem;
+}
+
+.main {
+  /*font-family: moc;*/
+  font-size: 2rem;
+  color: #000;
+}
+
+.main .row {
+  --bs-gutter-x: 0.2rem !important;
+  margin-bottom: var(--bs-gutter-x);
+}
+
+footer {
+  background: #fff;
+  padding-top: 5px;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+footer .btn {
+  font-size: 0.8rem !important;
+}
+
+.landscape-recommendation {
+  display: none;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 390px) and (orientation: portrait) {
+  .landscape-recommendation {
+    display: block;
+  }
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-title {
+  color: #e40a2d;
+  font-family: moc;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .modal-title {
+    font-size: 2rem;
+  }
+}
+
+.modal-header .btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
