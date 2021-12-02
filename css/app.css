@@ -36,11 +36,6 @@ body {
   margin-bottom: var(--bs-gutter-x);
 }
 
-.activity-btn {
-  background-position: center;
-  background-size: cover;
-}
-
 footer {
   background: #fff;
   padding-top: 5px;
@@ -98,4 +93,24 @@ footer .btn {
 #activity-modal .ratio {
   min-height: 410px;
   max-width: 566px;
+}
+
+.activity-btn {
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 1080px) {
+  .activity-btn:hover .letter-details {
+    display: block;
+  }
+}
+
+.letter-details {
+  display: none;
+  font-size: 0.75rem;
+}
+
+.letter-details span {
+  display: block;
 }

@@ -60,7 +60,7 @@ $sentence = Helper::make_sentence($words);
           $letter_img_src = 'img/' . $word_folder_name . '/' . $letter['image_name'] . '.png';
 
           echo '<div class="ratio" style="--bs-aspect-ratio: 58%;">';
-          echo '<button class="btn h-100 activity-btn" data-bs-toggle="modal" data-bs-target="#activity-modal" style="background-image: url(' . $letter_img_src . ')" data-activity-id-1="' . $letter['activity_id_1'] . '" data-activity-id-2="' . $letter['activity_id_2'] . '" title="View activity details"><span class="visually-hidden">View details for the activity representing the letter ' . strtoupper($letters_in_word[$letter_index]) . '</span></button>';
+          echo '<button class="btn h-100 activity-btn" data-bs-toggle="modal" data-bs-target="#activity-modal" style="background-image: url(' . $letter_img_src . ')" data-activity-id-1="' . $letter['activity_id_1'] . '" data-activity-id-2="' . $letter['activity_id_2'] . '" title="View activity details"><span class="visually-hidden">View details for the activity representing the letter ' . strtoupper($letters_in_word[$letter_index]) . '</span><span class="letter-details"><span>Distance: ' . $letter['distance'] . '</span><span>Click for more details</span></span></button>';
           echo '</div>';
 
         }
