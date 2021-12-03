@@ -17,6 +17,8 @@
 
         <p>The domain was bought on November 26th, 2004.</p>
 
+        <p>More GPS-art is available at <a href="https://www.strav.art/">https://www.strav.art/</a>.</p>
+
         <p>Sorry Santa, there are no cookies here.</p>
       </div>
     </div>
