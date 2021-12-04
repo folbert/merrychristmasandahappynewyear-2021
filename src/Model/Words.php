@@ -79,7 +79,7 @@ class Words
 
     foreach($words AS $word) {
       foreach($word AS $letter) {
-        if(empty($letter)) {
+        if(!isset($letter['distance'])) {
           continue;
         }
 

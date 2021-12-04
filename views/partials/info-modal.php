@@ -15,9 +15,9 @@
 
         <p>Code available at <a href="https://github.com/folbert/merrychristmasandahappynewyear-2021">folbert/merrychristmasandahappynewyear-2021</a>.</p>
 
-        <p>The domain was bought on November 26th, 2004.</p>
-
         <p>More GPS-art is available at <a href="https://www.strav.art/">https://www.strav.art/</a>.</p>
+
+        <p>This site has, in one form or another, been wishing you a Merry Christmas And A Happy New Year all year round since November 26th, 2004.</p>
 
         <p>Sorry Santa, there are no cookies here.</p>
       </div>

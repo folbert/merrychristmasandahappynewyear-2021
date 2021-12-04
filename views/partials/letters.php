@@ -7,17 +7,27 @@
     $letters_in_word = str_split($word);
     $word_folder_name = str_replace(' ', '-', trim($word));
 
-    foreach($word_details AS $letter_index => $letter) {
+    foreach($word_details AS $letter) {
 
-      echo '<div class="col">';
+      $letter_index = 0;
 
-      if(!empty($letter)) {
+      $col_elm_class_attr = 'col';
+
+      if(isset($letter['col_elm_class_attr'])) {
+        $col_elm_class_attr .= ' ' . $letter['col_elm_class_attr'];
+      }
+
+      echo '<div class="' . $col_elm_class_attr . '">';
+
+      if(isset($letter['image_name'])) {
 
         $letter_img_src = 'img/' . $word_folder_name . '/' . $letter['image_name'] . '.png';
 
         echo '<div class="ratio" style="--bs-aspect-ratio: 58%;">';
-        echo '<button class="btn h-100 activity-btn" data-bs-toggle="modal" data-bs-target="#activity-modal" style="background-image: url(' . $letter_img_src . ')" data-activity-id-1="' . $letter['activity_id_1'] . '" data-activity-id-2="' . $letter['activity_id_2'] . '" title="View activity details"><span class="visually-hidden">View details for the activity representing the letter ' . strtoupper($letters_in_word[$letter_index]) . '</span><span class="align-items-center align-content-center flex-wrap h-100 letter-details text-center"><span>Distance: ' . $letter['distance'] . 'km</span><span>Click for more details</span></span></button>';
+        echo '<button class="btn h-100 activity-btn" data-bs-toggle="modal" data-bs-target="#activity-modal" style="background-image: url(' . $letter_img_src . ')" data-activity-id-1="' . $letter['activity_id_1'] . '" data-activity-id-2="' . $letter['activity_id_2'] . '" title="View activity details"><span class="visually-hidden">View details for the activity representing the letter "' . strtoupper($letters_in_word[$letter_index]) . '"</span><span class="align-items-center align-content-center flex-wrap h-100 letter-details text-center"><span>Distance: ' . $letter['distance'] . 'km</span><span>Click for more details</span></span></button>';
         echo '</div>';
+
+        $letter_index++;
 
       }
 
