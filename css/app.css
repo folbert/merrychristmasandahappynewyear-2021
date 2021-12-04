@@ -3,9 +3,11 @@
   src: url(../fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf);
 }
 
-html,
 body {
-  height: 100%;
+  background: rgb(215, 11, 21);
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 2rem;
 }
 
 a,
@@ -17,15 +19,7 @@ a img {
   border: solid 1px #123D62;
 }
 
-body {
-  background: #fff url(../img/bg.png) no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  padding-top: 2rem;
-}
-
 .main {
-  /*font-family: moc;*/
   font-size: 2rem;
   color: #000;
 }
@@ -34,19 +28,6 @@ body {
   width: 100%;
   --bs-gutter-x: 0.2rem !important;
   margin-bottom: var(--bs-gutter-x);
-}
-
-footer {
-  background: #fff;
-  padding-top: 5px;
-  position: fixed;
-  bottom: 5px;
-  width: 100%;
-  font-size: 0.8rem;
-}
-
-footer .btn {
-  font-size: 0.8rem !important;
 }
 
 .landscape-recommendation {
@@ -60,46 +41,13 @@ footer .btn {
   }
 }
 
-.modal-header {
-  border-bottom: 0;
-}
-
-.modal-title {
-  color: #e40a2d;
-  font-family: moc;
-  font-size: 1.5rem;
-}
-
-@media (min-width: 992px) {
-  .modal-title {
-    font-size: 2rem;
-  }
-}
-
-.modal-header .btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-#activity-modal .modal-content {
-  max-width: 600px;
-}
-
-#activity-modal .modal-body {
-  padding: 0;
-}
-
-#activity-modal .ratio {
-  min-height: 360px;
-  max-width: 566px;
-}
-
 .activity-btn {
   background-position: center;
   background-size: cover;
   padding: 0;
 }
+
+.letter-wrapper {}
 
 .letter-details {
   display: none;
@@ -110,6 +58,15 @@ footer .btn {
 .letter-details span {
   display: none;
   width: 100%;
+}
+
+.activity-btn {
+  z-index: 2;
+}
+
+.activity-img {
+  z-index: 1;
+  border-radius: 4px;
 }
 
 .activity-btn:hover .letter-details {
@@ -130,5 +87,71 @@ footer .btn {
 }
 
 #consent .btn {
+  color: #fff !important;
+}
+
+/**
+Shared modal styles
+ */
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-header .btn-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.modal-title {
+  color: #e40a2d;
+  font-family: moc;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 420px) {
+  .modal-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-title {
+    font-size: 2rem;
+  }
+}
+
+.modal-header .btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/**
+Activity modal
+ */
+#activity-modal .modal-content {
+  max-width: 600px;
+}
+
+#activity-modal .modal-body {
+  padding: 0;
+}
+
+#activity-modal .ratio {
+  min-height: 360px;
+  max-width: 566px;
+}
+
+/**
+Footer
+ */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+footer .btn {
+  font-size: 0.8rem !important;
   color: #fff !important;
 }

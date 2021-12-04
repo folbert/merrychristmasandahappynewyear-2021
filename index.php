@@ -1,6 +1,7 @@
 <?php
 
 require_once 'src/Model/Words.php';
+require_once 'src/Helper.php';
 
 $sentence = Words::get_sentence();
 

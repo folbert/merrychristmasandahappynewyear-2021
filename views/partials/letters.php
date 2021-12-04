@@ -21,10 +21,12 @@
 
       if(isset($letter['image_name'])) {
 
-        $letter_img_src = 'img/' . $word_folder_name . '/' . $letter['image_name'] . '.png';
+        $letter_img_src_without_file_ext = 'img/' . $word_folder_name . '/' . $letter['image_name'];
+        $letter_img_src = $letter_img_src_without_file_ext . '.png';
 
-        echo '<div class="ratio" style="--bs-aspect-ratio: 58%;">';
-        echo '<button class="btn h-100 activity-btn" data-bs-toggle="modal" data-bs-target="#activity-modal" style="background-image: url(' . $letter_img_src . ')" data-activity-id-1="' . $letter['activity_id_1'] . '" data-activity-id-2="' . $letter['activity_id_2'] . '" title="View activity details"><span class="visually-hidden">View details for the activity representing the letter "' . strtoupper($letters_in_word[$letter_index]) . '"</span><span class="align-items-center align-content-center flex-wrap h-100 letter-details text-center"><span>Distance: ' . $letter['distance'] . 'km</span><span>Click for more details</span></span></button>';
+        echo '<div class="ratio ratio-1x1 letter-wrapper">';
+          echo '<img src="' . $letter_img_src . '" alt="" class="activity-img" srcset="' . Helper::get_activity_image_srcset($letter_img_src_without_file_ext) . '" sizes="' . Helper::get_activity_image_sizes() . '">';
+          echo '<button class="btn h-100 activity-btn" data-bs-toggle="modal" data-bs-target="#activity-modal" data-activity-id-1="' . $letter['activity_id_1'] . '" data-activity-id-2="' . $letter['activity_id_2'] . '"><span class="visually-hidden">View details for the activity representing the letter "' . strtoupper($letters_in_word[$letter_index]) . '"</span><span class="align-items-center align-content-center flex-wrap h-100 letter-details text-center"><span>Distance: ' . $letter['distance'] . 'km</span><span>Click for more details</span></span></button>';
         echo '</div>';
 
         $letter_index++;
@@ -43,7 +45,7 @@
 
   <div class="row mt-4 w-100">
     <div class="col">
-      <span class="w-100 text-center landscape-recommendation">Put your device in landscape mode to see the maps a bit better</span>
+      <span class="w-100 text-center landscape-recommendation">Rotate your device to landscape mode to see the maps a bit better</span>
     </div>
   </div>
 

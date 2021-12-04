@@ -9,7 +9,7 @@
 
         <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>, using <a href="https://www.strava.com/athletes/2962650">Strava</a> on December XX, 2021.</p>
 
-        <p>All activities were done around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. Most of them was run on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> / <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
+        <p>All activities were run around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. Most of them was done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> / <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
 
         <p>Total letter distance ~<?php echo Words::get_total_distance(); ?> km (~<?php echo Words::get_total_distance(Words::DISTANCE_UNIT_MILES) ?> miles).</p>
 
