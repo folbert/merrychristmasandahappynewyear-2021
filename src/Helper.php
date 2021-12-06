@@ -22,17 +22,4 @@ class Helper
 
   }
 
-  /**
-   * @return string
-   */
-  public static function get_activity_image_sizes()
-  {
-
-    // This is based on the row that holds five columns on small screens since each of the five letters will take up ~20vw
-    $sizes = '20vw';
-
-    return $sizes;
-
-  }
-
 }

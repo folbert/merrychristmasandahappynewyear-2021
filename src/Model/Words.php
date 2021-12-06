@@ -25,7 +25,7 @@ class Words
   {
 
     if(empty(self::$words)) {
-      self::$words = require_once __DIR__ . '/../../database/words.php';
+      self::$words = require_once __DIR__ . '/../../database/words.db.php';
     }
 
     return self::$words;
@@ -78,7 +78,7 @@ class Words
     $distance = 0;
 
     foreach($words AS $word) {
-      foreach($word AS $letter) {
+      foreach($word['letters'] AS $letter) {
         if(!isset($letter['distance'])) {
           continue;
         }
