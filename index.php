@@ -1,9 +1,9 @@
 <?php
 
-require_once 'src/Model/Words.php';
+require_once 'src/Model/Lines.php';
 require_once 'src/Helper.php';
 
-$sentence = Words::get_sentence();
+$sentence = Lines::get_sentence();
 
 ?>
 

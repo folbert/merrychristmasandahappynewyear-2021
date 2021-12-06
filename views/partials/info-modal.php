@@ -11,7 +11,7 @@
 
         <p>All activities were run around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. A large portion of them were done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> a.k.a. <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
 
-        <p>Total letter distance ~<?php echo Words::get_total_distance(); ?> km (~<?php echo Words::get_total_distance(Words::DISTANCE_UNIT_MILES) ?> miles).</p>
+        <p>Total letter distance ~<?php echo Lines::get_total_distance(); ?> km (~<?php echo Lines::get_total_distance(Lines::DISTANCE_UNIT_MILES) ?> miles).</p>
 
         <p>The complete code for the site is available at <a href="https://github.com/folbert/merrychristmasandahappynewyear-2021">folbert/merrychristmasandahappynewyear-2021</a> on GitHub.</p>
 

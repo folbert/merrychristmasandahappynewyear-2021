@@ -1,6 +1,6 @@
 <?php
 
-class Words
+class Lines
 {
 
   /**
@@ -16,7 +16,7 @@ class Words
   /**
    * @var
    */
-  private static $words;
+  private static $lines;
 
   /**
    * @return mixed
@@ -24,11 +24,11 @@ class Words
   public static function get_data()
   {
 
-    if(empty(self::$words)) {
-      self::$words = require_once __DIR__ . '/../../database/words.db.php';
+    if(empty(self::$lines)) {
+      self::$lines = require_once __DIR__ . '/../../database/lines.db.php';
     }
 
-    return self::$words;
+    return self::$lines;
 
   }
 
@@ -47,12 +47,12 @@ class Words
   public static function get_sentence()
   {
 
-    $parts = self::get_data();
+    $lines = self::get_data();
 
     $sentence = '';
 
-    foreach($parts AS $part => $part_data) {
-      $sentence.= trim($part) . ' ';
+    foreach(array_keys($lines) AS $line) {
+      $sentence.= trim($line) . ' ';
     }
 
     $sentence_words = explode(' ', $sentence);
@@ -74,11 +74,11 @@ class Words
   public static function get_total_distance($unit = self::DISTANCE_UNIT_KILOMETERS)
   {
 
-    $words = self::get_data();
+    $lines = self::get_data();
     $distance = 0;
 
-    foreach($words AS $word) {
-      foreach($word['letters'] AS $letter) {
+    foreach($lines AS $line) {
+      foreach($line['letters'] AS $letter) {
         if(!isset($letter['distance'])) {
           continue;
         }

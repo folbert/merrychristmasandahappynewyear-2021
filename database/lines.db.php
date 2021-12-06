@@ -2,7 +2,7 @@
 
 return [
   'merry' => [
-    'word-img-sizes-attr' => '(max-width:576px) 20vw, 11vw',
+    'line-img-sizes-attr' => '(max-width:576px) 20vw, 11vw',
     'letters' => [
       [
         'col_elm_class_attr' => 'd-none d-sm-block',
@@ -49,7 +49,7 @@ return [
     ],
   ],
   'christmas' => [
-    'word-img-sizes-attr' => '11vw',
+    'line-img-sizes-attr' => '11vw',
     'letters' => [
       [
         'image_name' => 'c',
@@ -108,7 +108,7 @@ return [
     ],
   ],
   'and' => [
-    'word-img-sizes-attr' => '(max-width:576px) 20vw, 11vw',
+    'line-img-sizes-attr' => '(max-width:576px) 20vw, 11vw',
     'letters' => [
       [
       ],
@@ -146,7 +146,7 @@ return [
     ],
   ],
   'a happy' => [
-    'word-img-sizes-attr' => '(max-width:576px) 14vw, 11vw',
+    'line-img-sizes-attr' => '(max-width:576px) 14vw, 11vw',
     'letters' => [
       [
         'col_elm_class_attr' => 'd-none d-sm-block',
@@ -194,7 +194,7 @@ return [
     ]
   ],
   'new year' => [
-    'word-img-sizes-attr' => '(max-width:576px) 13vw, 10vw',
+    'line-img-sizes-attr' => '(max-width:576px) 13vw, 10vw',
     'letters' => [
       [
         'col_elm_class_attr' => 'd-none d-sm-block',
