@@ -4,15 +4,14 @@ This project started out as a quick website being built using a static HTML file
 ## Adding activities
 1. Take a screen shot of the map on the phone
 2. Open in PS and crop to 1125x1125
-3. Resize to 500x500
+3. Resize to 800x800
 4. Export as PNG
-5. Upload to https://derivv.com/ to make additional sizes 50x50, 100x100, 200x200, 300x300 and 400x400
+5. Upload to https://derivv.com/ to make additional sizes 50x50, 100x100, 200x200, 300x300, 400x400, 500x500, 600x600, 700x700
 6. Create sizes and download zip
 7. Unzip and upload to TinyPNG
 8. Upload 500x500 version to TinyPNG
 9. Download zip from TinyPNG
 10. Add to correct project folder
-11. Rename resized images by removing underscores
 12. Make the activity public
 13. Copy the iFrame code
 14. Make the activity private

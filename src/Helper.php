@@ -11,13 +11,13 @@ class Helper
   {
 
     $srcset = '';
-    $sizes = [50, 100, 200, 300, 400];
+    $sizes = [50, 100, 200, 300, 400, 500, 600, 700];
 
     foreach($sizes AS $size) {
       $srcset .= $image_base_name . '-' . $size . 'x' . $size . '.png ' . $size . 'w,';
     }
 
-    $srcset .= $image_base_name . '.png 500w';
+    $srcset .= $image_base_name . '.png 800w';
     return $srcset;
 
   }
