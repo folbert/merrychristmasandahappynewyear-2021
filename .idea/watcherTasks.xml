@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTasksOptions">
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="-i $FileName$ -o $FileNameWithoutExtension$.min.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -14,9 +14,9 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="csso" />
+      <option name="program" value="$USER_HOME$/.nvm/versions/node/v8.0.0/lib/node_modules/csso-cli/bin/csso" />
       <option name="runOnExternalChanges" value="true" />
-      <option name="scopeName" value="Current File" />
+      <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />

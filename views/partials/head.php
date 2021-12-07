@@ -6,7 +6,7 @@
 <meta property="og:type" content="website">
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/app.min.css?v=1.0">
+<link rel="stylesheet" href="css/app.css?v=1.0">
 
 <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
