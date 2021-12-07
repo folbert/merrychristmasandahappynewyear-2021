@@ -109,9 +109,25 @@ Shared modal styles
   font-size: 1.4rem;
 }
 
+.modal-header .btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#info-modal h3 {
+  font-family: moc;
+  color: #e40a2d;
+  font-size: 1.2rem;
+}
+
 @media (min-width: 420px) {
   .modal-title {
     font-size: 1.5rem;
+  }
+
+  #info-modal h3 {
+    font-size: 1.3rem;
   }
 }
 
@@ -119,12 +135,10 @@ Shared modal styles
   .modal-title {
     font-size: 2rem;
   }
-}
 
-.modal-header .btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  #info-modal h3 {
+    font-size: 1.8rem;
+  }
 }
 
 /**
