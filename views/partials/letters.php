@@ -21,7 +21,7 @@
 
       if(isset($letter['image_name'])) {
 
-        $letter_img_src_without_file_ext = 'img/' . $line_folder_name . '/' . $letter['image_name'];
+        $letter_img_src_without_file_ext = '/assets/img/' . $line_folder_name . '/' . $letter['image_name'];
         $letter_img_src = $letter_img_src_without_file_ext . '.png';
 
         echo '<div class="ratio ratio-1x1 letter-wrapper">';
