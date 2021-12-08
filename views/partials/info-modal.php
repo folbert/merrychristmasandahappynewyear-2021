@@ -8,21 +8,29 @@
       <div class="modal-body">
 
         <h3>How</h3>
-        <p>Each letter is made up of a running activity on Strava where the movements were tracked using GPS.</p>
+        <p>Each letter is made up of a running activity on <a href="https://www.strava.com/athletes/2962650">Strava</a> where the movements were tracked using <abbr title="Global Positioning System">GPS</abbr>. All activities took place between December 4 and , 2021.</p>
+
+        <p>Complete activities without stops can be found at:</p>
+        <ul>
+          <li><a href="https://connect.garmin.com/modern/activity/7911587284">Garmin Connect Activity 7911587284</a></li>
+          <li><a href="https://connect.garmin.com/modern/activity/7916592131">Garmin Connect Activity 7916592131</a></li>
+          <li><a href="https://connect.garmin.com/modern/activity/7926655571">Garmin Connect Activity 7926655571</a></li>
+        </ul>
 
         <p>Total letter distance ~<?php echo Lines::get_total_distance(); ?> km (~<?php echo Lines::get_total_distance(Lines::DISTANCE_UNIT_MILES) ?> miles).</p>
 
         <h3>Who</h3>
-        <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>, using <a href="https://www.strava.com/athletes/2962650">Strava</a> between December XX and YY, 2021.</p>
-
-        <h3>Where</h3>
-        <p>All activities were run around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. A large portion of them were done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> a.k.a. <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
+        <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>, using  between December XX and YY, 2021.</p>
 
         <h3>Why</h3>
-        <p>I like web development and running and wanted to celebrate the holidays and the roads and paths in the area where I live.</p>
+        <p>I like web development, running and owning silly domain names. Also, what better way to celebrate the holidays and the roads and paths in the area where I live than by running on them?</p>
+
+        <h3>Where</h3>
+        <p>All activities were run in or around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. A large portion of them were done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> a.k.a. <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
+
+
 
         <h3>Misc.</h3>
-
         <p>The complete code for the site is available at <a href="https://github.com/folbert/merrychristmasandahappynewyear-2021">folbert/merrychristmasandahappynewyear-2021</a> on GitHub.</p>
 
         <p>More GPS-art can be found at, for example, <a href="https://www.strav.art/">https://www.strav.art/</a>.</p>
