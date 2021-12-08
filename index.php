@@ -32,8 +32,8 @@ $sentence = Lines::get_sentence();
     }
   ?>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/app.js"></script>
 
 </body>
 </html>
