@@ -65,9 +65,9 @@ return [
       ],
       [
         'image_name' => 'r',
-        'distance' => '0',
-        'activity_id_1' => '',
-        'activity_id_2' => '',
+        'distance' => '9.67',
+        'activity_id_1' => '6345099238',
+        'activity_id_2' => '3460680fc8a97bd437cc6d7fadd2560cdaf9dc77',
       ],
       [
         'image_name' => 'i',
