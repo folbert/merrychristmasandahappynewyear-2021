@@ -163,9 +163,10 @@ Footer
 footer {
   margin-top: 2rem;
   font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 footer .btn {
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
   color: #fff !important;
 }
