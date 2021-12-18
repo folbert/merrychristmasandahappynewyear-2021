@@ -43,10 +43,16 @@
 
   ?>
 
+  <?php
+  /*
+  ?>
   <div class="row mt-4 w-100">
     <div class="col">
       <span class="w-100 text-center landscape-recommendation">Rotate your device to landscape mode to see the maps a bit better</span>
     </div>
   </div>
+  <?php
+  */
+  ?>
 
 </div>

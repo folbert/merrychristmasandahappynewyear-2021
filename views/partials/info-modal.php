@@ -8,7 +8,7 @@
       <div class="modal-body">
 
         <h3>How</h3>
-        <p>Each letter is made up of a running activity on <a href="https://www.strava.com/athletes/2962650">Strava</a> where the movements were tracked using <abbr title="Global Positioning System">GPS</abbr>. All activities took place between December 4 and X, 2021.</p>
+        <p>Each letter is made up of a running activity on <a href="https://www.strava.com/athletes/2962650">Strava</a> where the movements were tracked using <abbr title="Global Positioning System">GPS</abbr>. All activities took place between December 4 and 19, 2021.</p>
 
         <p>Total letter distance ~<?php echo Lines::get_total_distance(); ?> km (~<?php echo Lines::get_total_distance(Lines::DISTANCE_UNIT_MILES) ?> miles).</p>
 
@@ -20,6 +20,8 @@
           <li><a href="https://connect.garmin.com/modern/activity/7916592131">December 5, 2021</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7926655571">December 7, 2021</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7931504523">December 8, 2021</a></li>
+          <li><a href="https://connect.garmin.com/modern/activity/7975350535">December 18, 2021 #1</a></li>
+          <li><a href="https://connect.garmin.com/modern/activity/7976499265">December 18, 2021 #2</a></li>
         </ul>
 
         <h3>Who</h3>
