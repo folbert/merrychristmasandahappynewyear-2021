@@ -2,9 +2,6 @@
 <title>Merry Christmas And A Happy New Year</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta property="og:title" content="Merry Christmas And A Happy New Year">
-<meta property="og:type" content="website">
-
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="/assets/css/app.css?v=1.0">
 
@@ -17,3 +14,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Merry Christmas And A Happy New Year" />
+<meta property="og:description" content="Holiday wishes created using GPS art." />
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://merrychtistmasandahappynewyear.com/assets/img/merry/m.png" />
