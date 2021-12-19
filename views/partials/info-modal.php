@@ -7,6 +7,9 @@
       </div>
       <div class="modal-body">
 
+        <h3>Who</h3>
+        <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>, using  between December XX and YY, 2021.</p>
+
         <h3>How</h3>
         <p>Each letter is made up of a running activity on <a href="https://www.strava.com/athletes/2962650">Strava</a> where the movements were tracked using <abbr title="Global Positioning System">GPS</abbr>. All activities took place between December 4 and 19, 2021.</p>
 
@@ -22,10 +25,8 @@
           <li><a href="https://connect.garmin.com/modern/activity/7931504523">December 8, 2021</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7975350535">December 18, 2021 #1</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7976499265">December 18, 2021 #2</a></li>
+          <li><a href="https://connect.garmin.com/modern/activity/7982925226">December 19, 2021</a></li>
         </ul>
-
-        <h3>Who</h3>
-        <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>, using  between December XX and YY, 2021.</p>
 
         <h3>Why</h3>
         <p>I like web development, running and owning silly domain names. Also, what better way to celebrate the holidays and the roads and paths in the area where I live than by running on them?</p>
@@ -41,6 +42,8 @@
         <p>More GPS-art can be found at, for example, <a href="https://www.strav.art/">https://www.strav.art/</a>.</p>
 
         <p>merrychristmasandahappynewyear.com has, in one form or another, been wishing a Merry Christmas And A Happy New Year all year round since November 26th, 2004.</p>
+
+        <p>Images for srcset created using <a href="https://derivv.com/">Derivv</a></p>
 
         <p>Sorry Santa, there are no cookies here.</p>
       </div>
