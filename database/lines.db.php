@@ -166,9 +166,9 @@ return [
       ],
       [
         'image_name' => 'a-2',
-        'distance' => '0',
-        'activity_id_1' => '',
-        'activity_id_2' => '',
+        'distance' => '2.95',
+        'activity_id_1' => '6403819635',
+        'activity_id_2' => '6c935941ea3a2be1411a15c60fc185f8836e6e60',
       ],
       [
         'image_name' => 'p-1',
@@ -238,9 +238,9 @@ return [
       ],
       [
         'image_name' => 'r',
-        'distance' => '0',
-        'activity_id_1' => '',
-        'activity_id_2' => '',
+        'distance' => '0.93',
+        'activity_id_1' => '6403460699',
+        'activity_id_2' => '470e6d627eb78e9ab6a88231f067b9eaa871ad2f',
       ],
       [
         'col_elm_class_attr' => 'd-none d-sm-block',
