@@ -17,5 +17,6 @@
 
 <meta property="og:title" content="Merry Christmas And A Happy New Year" />
 <meta property="og:description" content="Holiday wishes created using GPS art." />
+<meta property="og:url" content="https://merrychristmasandahappynewyear.com" />
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://merrychtistmasandahappynewyear.com/assets/img/merry/m.png" />
+<meta property="og:image" content="https://merrychristmasandahappynewyear.com/assets/img/merry/m.png" />
