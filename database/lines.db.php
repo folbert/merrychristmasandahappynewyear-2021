@@ -101,9 +101,9 @@ return [
       ],
       [
         'image_name' => 's-2',
-        'distance' => '0',
-        'activity_id_1' => '',
-        'activity_id_2' => '',
+        'distance' => '1.79',
+        'activity_id_1' => '6406305057',
+        'activity_id_2' => '0514e0e23d44503c785fcb912f2ad212a5f3af2c',
       ],
     ],
   ],
@@ -232,9 +232,9 @@ return [
       ],
       [
         'image_name' => 'a',
-        'distance' => '0',
-        'activity_id_1' => '',
-        'activity_id_2' => '',
+        'distance' => '2.38',
+        'activity_id_1' => '6406354885',
+        'activity_id_2' => '4aebc77c24828ca3dc8fbd433ea8a35684db0322',
       ],
       [
         'image_name' => 'r',
