@@ -8,16 +8,17 @@
       <div class="modal-body">
 
         <h3>Who</h3>
-        <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>, using  between December XX and YY, 2021.</p>
+        <p>Made by <a href="https://folbert.com">Folbert</a>, probably the best Bear in the world<sup>&trade;</sup>.</p>
 
         <h3>How</h3>
-        <p>Each letter is made up of a running activity on <a href="https://www.strava.com/athletes/2962650">Strava</a> where the movements were tracked using <abbr title="Global Positioning System">GPS</abbr>. All activities took place between December 4 and 19, 2021.</p>
+        <p>Each letter is made up of a running activity on <a href="https://www.strava.com/athletes/2962650">Strava</a> where the movements were tracked using <abbr title="Global Positioning System">GPS</abbr>. All activities took place between December 4 and 20, 2021.</p>
 
-        <p>Total letter distance ~<?php echo Lines::get_total_distance(); ?> km (~<?php echo Lines::get_total_distance(Lines::DISTANCE_UNIT_MILES) ?> miles).</p>
+        <p>Total letter distance: ~<?php echo Lines::get_total_distance(); ?> km (~<?php echo Lines::get_total_distance(Lines::DISTANCE_UNIT_MILES) ?> miles).</p>
 
         <p>Click a letter to find out more about the activity in which it was created.</p>
 
         <p>Complete activities, including the distance between each letter, can be found at Garmin Connect:</p>
+
         <ul>
           <li><a href="https://connect.garmin.com/modern/activity/7911587284">December 4, 2021</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7916592131">December 5, 2021</a></li>
@@ -26,6 +27,7 @@
           <li><a href="https://connect.garmin.com/modern/activity/7975350535">December 18, 2021 #1</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7976499265">December 18, 2021 #2</a></li>
           <li><a href="https://connect.garmin.com/modern/activity/7982925226">December 19, 2021</a></li>
+          <li><a href="https://connect.garmin.com/modern/activity/7985761253">December 20, 2021</a></li>
         </ul>
 
         <h3>Why</h3>
@@ -33,8 +35,6 @@
 
         <h3>Where</h3>
         <p>All activities were run in or around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. A large portion of them were done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> a.k.a. <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
-
-
 
         <h3>Misc.</h3>
         <p>The complete code for the site is available at <a href="https://github.com/folbert/merrychristmasandahappynewyear-2021">folbert/merrychristmasandahappynewyear-2021</a> on GitHub.</p>
