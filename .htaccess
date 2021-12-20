@@ -1,3 +1,13 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.merrychristmasandahappynewyear\.com [NC]
+RewriteRule ^(.*)$ https://merrychristmasandahappynewyear.com/$1 [L,R=301]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+</IfModule>
+
 # Apache Server Configs v4.0.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
