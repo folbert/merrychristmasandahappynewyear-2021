@@ -22,4 +22,14 @@ class Helper
 
   }
 
+  /**
+   * @return float
+   */
+  public static function get_version()
+  {
+
+    return '1.1.4';
+
+  }
+
 }

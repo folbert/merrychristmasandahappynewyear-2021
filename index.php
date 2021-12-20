@@ -33,7 +33,7 @@ $sentence = Lines::get_sentence();
   ?>
 
   <script src="/assets/js/bootstrap.min.js"></script>
-  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/app.js?v=<?php echo Helper::get_version() ?>"></script>
 
 </body>
 </html>
