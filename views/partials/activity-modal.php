@@ -1,4 +1,4 @@
-<div class="modal fade" id="activity-modal" tabindex="-1" aria-labelledby="activity-modal-label" aria-hidden="true">
+<div class="modal fade" id="activity-modal" tabindex="-1" aria-labelledby="activity-modal-label" aria-hidden="true" data-current-letter-index="">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -8,7 +8,7 @@
       <div class="modal-body">
         <div id="consent" class="px-3">
           <p>We would like to display a Strava activity here by embedding it. Are you ok with <a href="https://www.strava.com/legal/cookie_policy" target="_blank">Stravas cookie policy</a>? Your answer will be stored for the duration of your visit to this page.</p>
-          <p class="text-end">
+          <p>
             <button class="btn btn-dark" id="consent-given-trigger">Yes</button>
           </p>
           <p>
@@ -20,6 +20,10 @@
             <iframe allowtransparency="true" data-src-template="https://www.strava.com/activities/#ACTIVITYID-1#/embed/#ACTIVITYID-2#" id="activity-details-iframe" data-activity-id-1="" data-activity-id-2=""></iframe>
           </div>
         </div>
+      </div>
+      <div class="modal-footer justify-content-center" id="activity-navigation-wrapper">
+        <button class="btn activity-navigation" data-direction="-1" title="Previous activity">&laquo; <span class="visually-hidden">Previous</span></button>
+        <button class="btn activity-navigation" data-direction="+1" title="Next activity">&raquo; <span class="visually-hidden">Next</span></button>
       </div>
     </div>
   </div>

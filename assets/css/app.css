@@ -1,3 +1,7 @@
+/**
+Semi chaos ahead :shrug:
+ */
+
 @font-face {
   font-family: 'moc';
   src: url(../fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf);
@@ -157,6 +161,19 @@ Activity modal
   max-width: 566px;
 }
 
+.modal-footer {
+  border-top: none;
+}
+
+#activity-navigation-wrapper {
+  display: none;
+  padding-top: 0;
+}
+
+body.activity-consent-given #activity-navigation-wrapper {
+  display: flex;
+}
+
 /**
 Footer
  */
@@ -169,4 +186,8 @@ footer {
 footer .btn {
   font-size: 1rem !important;
   color: #fff !important;
+}
+
+body.activity-consent-given #consent {
+  display: none;
 }
