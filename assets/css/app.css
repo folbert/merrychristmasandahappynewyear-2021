@@ -165,14 +165,14 @@ Activity modal
   border-top: none;
 }
 
-#activity-navigation-wrapper {
+/*#activity-navigation-wrapper {
   display: none;
   padding-top: 0;
 }
 
 body.activity-consent-given #activity-navigation-wrapper {
   display: flex;
-}
+}*/
 
 /**
 Footer

@@ -2,16 +2,16 @@ document.onreadystatechange = function () {
   if (document.readyState == "interactive") {
 
     let mCHNY_activityModal = document.getElementById('activity-modal');
-    let mCHNY_consentActivityLink = document.getElementById('consent-activity-link');
+    //let mCHNY_consentActivityLink = document.getElementById('consent-activity-link');
     let mCHNY_activityDetailsIframe = document.getElementById('activity-details-iframe');
-    let mCHNY_consentGivenTrigger = document.getElementById('consent-given-trigger');
+    //let mCHNY_consentGivenTrigger = document.getElementById('consent-given-trigger');
     let mCHNY_activityEmbedWrapper = document.getElementById('activity-modal__embed-wrapper');
     let mCHNY_activityNavigationWrapper = document.getElementById('activity-navigation-wrapper');
     let mCHNY_activityButtons = document.getElementsByClassName('activity-btn');
-    let mCHNY_okToEmbed = false;
+    let mCHNY_okToEmbed = true;
 
     let mCHNY_activityDetailsSrcTemplate = mCHNY_activityDetailsIframe.getAttribute('data-src-template');
-    let mCHNY_consentActivityLinkHrefTemplate = mCHNY_consentActivityLink.getAttribute('data-href-template');
+    //let mCHNY_consentActivityLinkHrefTemplate = mCHNY_consentActivityLink.getAttribute('data-href-template');
 
     /**
      *
@@ -34,7 +34,7 @@ document.onreadystatechange = function () {
 
       mCHNY_activityModal.setAttribute('data-current-letter-index', letterIndex);
 
-      mCHNY_consentActivityLink.setAttribute('href', mCHNY_consentActivityLinkHrefTemplate.replace('#ACTIVITYID-1#', activityId1));
+      //mCHNY_consentActivityLink.setAttribute('href', mCHNY_consentActivityLinkHrefTemplate.replace('#ACTIVITYID-1#', activityId1));
 
       if(letterIndex == 0) {
         document.querySelector('[data-direction="-1"]').disabled = true;
@@ -56,13 +56,13 @@ document.onreadystatechange = function () {
     /**
      *
      */
-    mCHNY_consentGivenTrigger.addEventListener('click', function(event) {
+    /*mCHNY_consentGivenTrigger.addEventListener('click', function(event) {
 
       document.body.classList.add('activity-consent-given');
       mCHNY_embedActivity();
       mCHNY_okToEmbed = true;
 
-    });
+    });*/
 
     /**
      *

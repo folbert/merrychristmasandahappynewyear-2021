@@ -44,8 +44,6 @@
         <p>merrychristmasandahappynewyear.com has, in one form or another, been wishing a Merry Christmas And A Happy New Year all year round since November 26th, 2004.</p>
 
         <p>Images for srcset created using <a href="https://derivv.com/">Derivv</a></p>
-
-        <p>Sorry Santa, there are no cookies here.</p>
       </div>
     </div>
   </div>
