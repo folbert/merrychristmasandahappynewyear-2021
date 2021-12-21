@@ -34,7 +34,7 @@
         <p>I like web development, running and owning silly domain names. Also, what better way to celebrate the holidays and the roads and paths in the area where I live than by running on them?</p>
 
         <h3>Where</h3>
-        <p>All activities were run in or around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a> and <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a>. A large portion of them were done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> a.k.a. <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
+        <p>All activities were run in or around <a href="https://sv.wikipedia.org/wiki/S%C3%A4rsl%C3%B6v_och_Djursl%C3%B6v">Särslöv, Djurslöv</a>, <a href="https://sv.wikipedia.org/wiki/Tottarp">Tottarp</a> and <a href="https://sv.wikipedia.org/wiki/Nordan%C3%A5">Nordanå</a>. A large portion of them were done on <a href="https://skane.naturskyddsforeningen.se/hittaut/sydvastra-skane/kolbora-mosse/">Kolböra Mosse</a> a.k.a. <a href="https://staffanstorp.se/fritid-och-upplevelser/natur-kultur-och-sevart/betrador/">Beträdorna</a>.</p>
 
         <h3>Misc.</h3>
         <p>The complete code for the site is available at <a href="https://github.com/folbert/merrychristmasandahappynewyear-2021">folbert/merrychristmasandahappynewyear-2021</a> on GitHub.</p>
