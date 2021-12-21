@@ -28,7 +28,7 @@ class Helper
   public static function get_version()
   {
 
-    return '1.1.4';
+    return '1.2';
 
   }
 
