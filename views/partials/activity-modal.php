@@ -23,7 +23,7 @@
         ?>
         <div id="activity-modal__embed-wrapper">
           <div class="ratio" style="--bs-aspect-ratio: 70%;">
-            <iframe allowtransparency="true" data-src-template="https://www.strava.com/activities/#ACTIVITYID-1#/embed/#ACTIVITYID-2#" id="activity-details-iframe" data-activity-id-1="" data-activity-id-2=""></iframe>
+            <iframe style="background: transparent" data-src-template="https://www.strava.com/activities/#ACTIVITYID-1#/embed/#ACTIVITYID-2#" id="activity-details-iframe" data-activity-id-1="" data-activity-id-2=""></iframe>
           </div>
         </div>
       </div>
