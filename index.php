@@ -21,9 +21,9 @@ $sentence = Lines::get_sentence();
   <?php
     $partial_names = [
       'header',
+      'info-modal',
       'letters',
       'footer',
-      'info-modal',
       'activity-modal',
     ];
 
